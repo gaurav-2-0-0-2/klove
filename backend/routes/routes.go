@@ -10,4 +10,3 @@ func GetRoot(w http.ResponseWriter, r *http.Request){
 	fmt.Printf("got / request\n")
 	io.WriteString(w, "You have hit the / endpoint\n")
 }
-
